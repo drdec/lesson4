@@ -12,6 +12,7 @@ namespace Homework
 
         static void Main()
         {
+            goto m;
             Console.WriteLine("Задание 1");
             {
                 int n = 3;
@@ -55,6 +56,7 @@ namespace Homework
             }
 
             Console.WriteLine();
+            m:
 
             Console.WriteLine("Задане 2");
             {
@@ -72,7 +74,7 @@ namespace Homework
                     }
                     else
                     {
-                        Console.WriteLine(SumNumbers("Сумма ваших чисел равна = " + numbers.Trim()));
+                        Console.WriteLine("Сумма ваших чисел равна = " + SumNumbers(numbers.Trim()));
                         isEmpty = false;
                     }
                 }
