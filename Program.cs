@@ -12,7 +12,6 @@ namespace Homework
 
         static void Main()
         {
-            goto m;
             Console.WriteLine("Задание 1");
             {
                 int n = 3;
@@ -56,7 +55,6 @@ namespace Homework
             }
 
             Console.WriteLine();
-            m:
 
             Console.WriteLine("Задане 2");
             {
